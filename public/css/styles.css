@@ -1,0 +1,155 @@
+
+:root {
+    --fem: #ff9999;
+    --masc: #990099;
+    --neut: #cccc00;
+    --heading : #333333;
+    --menuHeading: #888888; 
+    --subHeading: #626262;
+    --body: #333333;
+}
+
+/*----legend---*/
+.legend_h{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: var(--subheading);
+    width:inherit    
+}
+
+.legend_body{
+    display: flex;
+    flex-direction: column;
+    align-items : flex-end;
+    width : 120px;
+}
+
+.legend_item{
+    display: flex;
+    color: #626262;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    width:inherit
+}
+
+.legend_shape {
+    /*margin-left: 32px;*/
+    margin-right: 16px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+}
+
+.phrase_box {
+    margin-top: 64px;
+};
+
+/*-----gender----*/
+.FEMININE {
+    color: var(--fem);
+}
+
+.MASCULINE {
+    color: var(--masc);
+}
+
+.NEUTER {
+    color: var(--neut);
+}
+
+.GENDER_UNKNOWN {
+    color:#000000;
+}
+/*--------------*/
+body {
+    color: var(--body);
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.main-content {
+    flex-grow: 1;
+};
+/*-------footer--------*/
+footer {
+    color:#888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+/*-------header--------*/
+header {
+    color: var(--heading);
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.title_container {
+    display : flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+h2{
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: var(--subHeading);
+
+}
+
+h1{
+    font-size: 64px;
+}
+
+.logo_title {
+    --logoScale :0.07;
+    height:  calc(836px * var(--logoScale));
+    width: calc(1018px * var(--logoScale));
+}
+
+header a {
+    color: var(--menuHeading);
+    margin-right: 16px;
+    text-decoration: none;
+}
+/*------phrase box------*/
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+
+.portrait {
+    width: 250px;
+}
+
+/*------about----------*/
+.logo_about {
+    --logoScale :0.3;
+    height:  calc(836px * var( --logoScale));
+    width: calc(1018px * var( --logoScale));
+    align-self: center;
+    margin-bottom: 32px;
+}
+
+.about_description {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    
+}

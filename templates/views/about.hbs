@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+       <head>
+              <title>About</title>
+
+              <link rel="stylesheet" href="/css/styles.css">
+              <link rel="icon" href="/img/icon_v1.png">
+
+              <script src="/js/app.js"></script>
+              <meta charset="UTF-8">
+       </head>
+       <body>
+              <div class='main-content'>
+                     {{>header}}
+                     <div class="about_description">
+                            <img class="logo_about" src="/img/languana_logo_black.png">
+                            <p>
+                            The idea of this App is to allow Language Learners to pursue their own interests when acquiring a language.  Other language learning Apps present users with a restricted vocabulary and generalised content. This treats all users as the same.
+                            </p>
+                            <p>
+                            Languana aims to expose users to the language in a real environment, so that the words they are learning match the words they will encounter in their daily use of the language.
+                            </p> 
+                            <p>
+                            This allows users to match their learning to their interests or field of study. 
+                            </p>
+                            <p>
+                            This App utilises Google's Natural Language API and  Translate API to analyse text. The former analyses language and detects grammatical constructs. The latter is used to translate text into the target language.
+                            </p>
+                            <p>
+                            The App will run in browser allowing it to work seamlessly with whatever News article, Wikipedia Article or German language webpage the user is reading. 
+                            </p>
+                            <p>
+                            The Demo available here showcases just one feature of the App in development.  Ultimately the App will learn the words users are frequently exposed to and test them on those words.  Users will be able to click on words on the text to save them, and their english equivalent, to their unique profiles.  The features of Google’s Language API’s will be used to highlight grammar constructs.   The app will analyse not just the vocabulary presented but also the frequency with which it appears. This will allow users to get a sense of the importance of the vocabulary they are presented with.  By identifying vocabulary the user has already been exposed to and tested on; the App will be able to judge the ease with which a user will be able to read a text.  This will enable  users to evaluate whether their language competency matches the text.   
+                            </p>
+                     </div> 
+              </div>
+              {{>footer}}
+       </body>
+</html>
+
+

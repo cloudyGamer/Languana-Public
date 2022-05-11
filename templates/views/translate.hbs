@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+          <head>
+                    <title>Translations</title>
+                    <link rel="stylesheet" href="/css/styles.css">
+                    <link rel="icon" href="/img/icon_v1.png">
+
+                    <meta charset="UTF-8">
+
+          </head>
+          <body>
+                    <div class='main-content'>
+                              {{>header}}
+                              {{>legend}}
+                              <div class="phrase_box">
+                                        <p>Enter an English phrase to translate</p>
+                                        <form>
+                                                  <input placeholder="word">
+                                                  <button>Search</button>
+                                        </form>
+                                        <p id="block"></p>
+                                        <p id="message-1"></p>
+                                        <p id="message-2"></p>
+                              </div>
+
+                    </div>
+                    {{>footer}}
+                    <script src="/js/translate.js"></script>
+
+          </body>
+</html>
+
+

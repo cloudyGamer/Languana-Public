@@ -1,0 +1,17 @@
+node_modules/
+/node_modules/
+web-server/node_modules/
+web-server/graphic-adapter-316121-c0c26160a53f.json
+/package-lock.json
+/package.json
+package-lock.json
+package.json
+web-server/src/playground/
+./src/playground/
+src/playground/
+/src/playground/
+web-server/src/utils/key.js
+/nbproject/
+/app.js
+/app_lang.js
+.git.zip
